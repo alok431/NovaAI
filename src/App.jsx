@@ -4,7 +4,7 @@ import './index.css';
 
 function App() {
   const [messages, setMessages] = useState([
-    { id: 1, type: 'system', text: 'Hello! I am your Enterprise GenAI Assistant, powered by Kore.ai. How can I help you streamline operations today?' }
+    { id: 1, type: 'system', text: 'Hello! I am Nova, your Enterprise GenAI Assistant, powered by Groq. How can I help you streamline operations today?' }
   ]);
   const [inputValue, setInputValue] = useState('');
 
@@ -102,9 +102,9 @@ function App() {
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
             <div>
               <h1 style={{ fontSize: '1.875rem', fontWeight: '700', marginBottom: '0.5rem' }}>Enterprise GenAI Platform</h1>
-              <p style={{ color: 'var(--text-secondary)' }}>Partnering with Kore.ai to deploy scalable conversational agents.</p>
+              <p style={{ color: 'var(--text-secondary)' }}>Deploying scalable conversational agents with blazing-fast Groq inference.</p>
             </div>
-            <span className="badge">Kore.ai Integrated</span>
+            <span className="badge">⚡ Groq Powered</span>
           </div>
 
           <div className="dashboard-grid">

@@ -70,7 +70,7 @@ app.post('/api/chat', async (req, res) => {
 
     // Build the message payload with system prompt, history, and the new message
     const aiMessages = [
-      { role: "system", content: "You are Nova, an enterprise GenAI assistant deployed by Kore.ai. You help streamline enterprise operations. Keep responses concise and professional." },
+      { role: "system", content: "You are Nova, an enterprise GenAI assistant powered by Groq's ultra-fast Llama 3.3 70B model. You help streamline enterprise operations. Keep responses concise and professional." },
       ...history,
       { role: "user", content: message }
     ];
